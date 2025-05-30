@@ -1,0 +1,112 @@
+html {
+    background: gray;
+    background-image: url(Images/rainbowBG.jpg);
+}
+
+body{
+    background: white;
+    text-align: center;
+    padding: 25px 0px;
+    width: 700px;
+    margin: 25px auto;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+hr {
+    width: 500px;
+}
+
+.rgb-code {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+input {
+    width: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+#redIn {
+    background: red;
+}
+
+#greenIn {
+    background: green;
+}
+
+#blueIn {
+    background: blue;
+}
+
+#display {
+    width: 400px;
+    height: 200px;
+    background: rgb(255, 255, 0);
+    margin: auto;
+    border: 3px solid gray;
+}
+
+button {
+    background: gray;
+    color: white;
+    border-radius: 3px;
+    padding: 4px 25px;
+    cursor: pointer;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#ID:hover {
+    color: #7CB58B;
+    background: black;
+}
+
+#Font2 {
+    font-family: 'New Tegomin';
+}
+
+#white-btn {
+    background: white;
+    color: black;
+    border-radius: 5px;
+    margin-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#black-btn {
+    background: black;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.preview-in {
+    background: gray;
+}

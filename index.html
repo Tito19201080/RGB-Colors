@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>RGB Colors</title>
+    <link href='https://fonts.googleapis.com/css?family=New Tegomin' rel='stylesheet'>
+    <script defer src="script.js" async></script>
+  </head>
+
+  <body>
+    <h1>RGB Colors</h1>
+    <p><span class="rgb-code">An RGB color is specified by rgb(red, green, blue)</span></p>
+    <p>
+      The parameters red, green and blue define the intensity of the color:<br />0
+      <em>(lowest)</em> to 255 <em>(highest)</em>
+    </p>
+    <hr />
+
+    <h3>Try it out for yourself...</h3>
+    <p>
+      Preview Width: <input id="pre-width" class="preview-in" type="number" value="400" min="50" max="400" step="10"> 
+      Preview Height: <input id="pre-height" class="preview-in" type="number" value="200" min="50" max="200" step="10">
+    </p>
+    <p>
+      red: <input id="redIn" type="number" value="255" min="0" max="255" step="5"> 
+      green: <input id="greenIn" type="number" value="255" min="0" max="255" step="5"> 
+      blue: <input id="blueIn" type="number" value="0" min="0" max="255" step="5">
+    </p>
+    <p>
+      <button id="black-btn">Black</button> <button id="white-btn">White</button>
+    </p>
+    <p id="display"></p>
+
+    <p id="rgb-code">rgb (255, 255, 0)</p>
+    <hr>
+
+    <p id="Font2"><a href="https://en.wikipedia.org/wiki/RGB_color_model" target="_blank">Learn more</a> about RGB colors on wikipedia.</p>
+
+  </body>
+</html>
